@@ -5,8 +5,8 @@
 #include "header.h"
 /*_____ D E C L A R A T I O N S ____________________________________________*/
 
-volatile const app_info_t __attribute__((section(".ARM.__at_0x0003F000"))) c_app_info = 
-// volatile const app_info_t c_app_info = 
+// volatile const app_info_t __attribute__((section(".ARM.__at_0x0003F000"))) c_app_info = 
+volatile const app_info_t c_app_info = 
 {
     RIGHT_APP_KEY,
     VERSION,

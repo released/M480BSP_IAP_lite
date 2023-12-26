@@ -20,8 +20,8 @@ LOAD_ROM_2  0x3F000 0x1000
 	header.bin  0x3F000 0x1000
 	{
 		header.o (+RO)
-		;header.o (.bss)
-		;header.o (.data)
+		header.o (.bss)
+		header.o (.data)
 	}
 }
 
